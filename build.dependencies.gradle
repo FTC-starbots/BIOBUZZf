@@ -1,7 +1,7 @@
 repositories {
     mavenCentral()
-    maven { url 'https://repo.dairy.foundation/releases/'}
     google() // Needed for androidx
+    maven { url 'https://repo.dairy.foundation/releases/'}
 }
 
 dependencies {
@@ -18,3 +18,4 @@ dependencies {
     implementation 'com.pedropathing:revhub:3.0.1'
     implementation 'com.pedropathing:tuning:1.0.1'
 }
+
