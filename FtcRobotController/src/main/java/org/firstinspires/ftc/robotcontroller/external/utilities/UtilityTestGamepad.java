@@ -43,6 +43,7 @@ public class UtilityTestGamepad extends OpMode {
     @Override
     public void init(){
         telemetry.addData("Instructions", "Setup your gamepads and then press the play button");
+       // return null;
     }
 
     @Override

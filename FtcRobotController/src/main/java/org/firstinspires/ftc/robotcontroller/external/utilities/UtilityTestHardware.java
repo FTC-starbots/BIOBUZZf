@@ -80,6 +80,7 @@ public class UtilityTestHardware extends OpMode {
             }
         }
         telemetry.addData("Num Configurations", deviceList.size());
+        //return null;
     }
 
     @Override
