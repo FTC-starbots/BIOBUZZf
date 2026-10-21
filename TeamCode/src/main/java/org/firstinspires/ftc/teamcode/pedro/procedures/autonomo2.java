@@ -37,6 +37,7 @@ public class autonomo2 extends LinearOpMode {
         return sequential(
                 follow(follower, path1()).until(() -> !follower.isBusy()),
                 follow(follower, path2()).until(() -> !follower.isBusy()),
+                waitMs(1000),
                 follow(follower, path3()).until(() -> !follower.isBusy())
         );
     }
